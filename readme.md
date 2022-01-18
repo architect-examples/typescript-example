@@ -1,6 +1,6 @@
 # Architect + TypeScript example
 
-## Example Architect app making use of `@architect/plugin-typescript`
+## Example Architect app making use of [`@architect/plugin-typescript`](https://www.npmjs.com/package/@architect/plugin-typescript)
 
 ### Getting started
 
@@ -15,6 +15,7 @@ Try changing files in the TypeScript handler at `src/http/get-index/`, and even 
 ### Going deeper
 
 This is an absurdly simple app intended to demonstrate:
+
 
 #### Heterogenous runtimes across Lambdas
 
