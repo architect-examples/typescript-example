@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@architect/views": [ "src/views" ],
+      "shared": [ "src/shared-ts" ]
+    }
+  }
+}

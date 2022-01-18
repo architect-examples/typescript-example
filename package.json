@@ -1,0 +1,19 @@
+{
+  "name": "architect-typescript-example",
+  "scripts": {
+    "start": "arc sandbox"
+  },
+  "dependencies": {
+    "@architect/plugin-typescript": "0.0.2",
+    "whatev": "^1.0.0"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.0.0-RC.0",
+    "@architect/eslint-config": "^2.0.1",
+    "@types/node": "^17.0.5",
+    "eslint": "^8.5.0"
+  },
+  "eslintConfig": {
+    "extends": "@architect/eslint-config"
+  }
+}
