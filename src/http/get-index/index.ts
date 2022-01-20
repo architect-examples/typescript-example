@@ -1,4 +1,7 @@
+import { Handler, APIGatewayProxyEventV2, APIGatewayProxyResultV2 } from 'aws-lambda'
+type LambdaHandler = Handler<APIGatewayProxyEventV2, APIGatewayProxyResultV2>
 import msg from './message'
-export async function handler (request: any, context: any): Promise<any> {
-  return { ok: msg() }
+
+export const handler: LambdaHandler = async (event, context) => {
+  return { body: msg() }
 }
