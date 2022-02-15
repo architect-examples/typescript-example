@@ -4,15 +4,15 @@
     "start": "arc sandbox"
   },
   "dependencies": {
-    "@architect/plugin-typescript": "0.0.4",
+    "@architect/plugin-typescript": "^0.1.0",
     "whatev": "^1.0.0"
   },
   "devDependencies": {
-    "@architect/architect": "^10.0.0-RC.1",
+    "@architect/architect": "^10.0.0-RC.7",
     "@architect/eslint-config": "^2.0.1",
     "@types/aws-lambda": "^8.10.92",
-    "@types/node": "^17.0.12",
-    "eslint": "^8.7.0"
+    "@types/node": "^17.0.18",
+    "eslint": "^8.9.0"
   },
   "eslintConfig": {
     "extends": "@architect/eslint-config"
