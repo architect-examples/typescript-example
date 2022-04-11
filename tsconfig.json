@@ -2,8 +2,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@architect/views": [ "src/views" ],
-      "shared": [ "src/shared-ts" ]
+      "shared/*": [ "src/shared-ts/*" ],
+      "shared": [ "src/shared-ts" ],
+      "@architect/shared/*": [ "src/shared/*" ],
+      "@architect/shared": [ "src/shared" ],
+      "@architect/views/*": [ "src/views/*" ],
+      "@architect/views": [ "src/views" ]
     }
   }
 }

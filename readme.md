@@ -33,6 +33,6 @@ Watch Architect TypeScript's built-in sourcemap support work by throwing within 
 
 Architect's built-in shared code folders (`src/shared` + `src/views`) work as expected with the plain JS handler.
 
-The TypeScript handler uses its own unique shared backend code folder (`src/shared-ts`, totally arbitrary), while still making use of shared code in `src/views` (by way of `tsconfig.json` `paths` setting).
+The TypeScript handler uses its own unique shared backend code folder (`src/shared-ts`, totally arbitrary), while still making use of shared code in `src/views` and `src/shared` (by way of `tsconfig.json` > `compilerOptions` > `paths` setting).
 
 > Note: you do not have to follow these shared code conventions for your project. Whatever works for you is fine! This app just demonstrates one approach that happens to interface with Architect's built-in shared code functionality.
